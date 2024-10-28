@@ -1,0 +1,15 @@
+img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;}
+    h1{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color : blue;
+        text-align: center;}
+        html{
+            background-color: black;}
+            body{color: white;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;}
+            h2{color: blue;}
+            h3{color: blue;}
+
