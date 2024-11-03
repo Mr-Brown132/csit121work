@@ -1,0 +1,13 @@
+th{padding: 5px;font-size: 30px;}
+td{border: 1px solid black; padding: 5px;}
+.navbar ul{ list-style-type: none;
+background-color: black;
+padding: 0px;
+margin: 0px;}
+.navbar a{ color : white;
+text-decoration: none;
+padding: 10px;
+display: block;
+text-align: center;}
+.navbar a:hover{background-color: rgb(209, 22, 22);}
+.Tier{padding: 5px;font-size: 30px;}
