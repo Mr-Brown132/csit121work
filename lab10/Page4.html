@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page4</title>
+    <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+    <div class="topnav" id="myTopnav">
+        <a href="Page1.html">What is HTML Media Capture</a>
+        <a href="Page2.html">Why is HTML Media Capture important</a>
+        <a href="Page3.html">How is HTML Media Capture used</a>
+        <a href="Page4.html" class="active">Sources</a>
+          <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+          </a>
+        </div>
+        
+        <div style="padding-left:16px">
+        </div>
+        <script>
+        function myFunction() {
+          var x = document.getElementById("myTopnav");
+          if (x.className === "topnav") {
+            x.className += " responsive";
+          } else {
+            x.className = "topnav";
+          }
+        }
+        </script>
+        <h1>Sources</h1>
+        <p>HTML media capture. W3C. (n.d.). https://www.w3.org/TR/html-media-capture/ [online]
+            <a href="https://www.w3.org/TR/html-media-capture/">W3C HTML Media Capture</a></p>
+        <p>MozDevNet. (n.d.). HTML attribute: Capture - HTML: Hypertext markup language: MDN. MDN Web Docs. https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/capture
+            <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/capture">HTML attribute: capture</a></p>
+        <p> HTML media capture: Can I use... support tables for HTML5, CSS3, etc. HTML Media Capture | Can I use... Support tables for HTML5, CSS3, etc. (n.d.). https://caniuse.com/html-media-capture
+            <a href="https://caniuse.com/html-media-capture">Can I use: HTML Media Capture</a></p>
+    
+</body>
+</html>
