@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Images</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="topnav" id="myTopnav">
+        <a href="Page1.Html">Lab Tier List</a>
+        <a href="Page2.Html">My Favorite Labs</a>
+        <a href="Page3.html" class="active">Images of my favorite labs</a>
+        <a href="Page4.html" >Reflection and Links to all the labs.</a>
+          <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+          </a>
+        </div>
+        
+        <div style="padding-left:16px">
+        </div>
+        <script>
+        function myFunction() {
+          var x = document.getElementById("myTopnav");
+          if (x.className === "topnav") {
+            x.className += " responsive";
+          } else {
+            x.className = "topnav";
+          }
+        }
+        </script>
+    <h1>Images of my favorite labs</h1>
+    <p><img src="Lab08.png" alt="Lab08" width="950" height="600"></p>
+    <p><img src="Lab09.png" alt="Lab09" width="950" height="600"></p>
+    <p><img src="Lab10.png" alt="Lab10" width="950" height="600"></p>
+</body>
+</html>
